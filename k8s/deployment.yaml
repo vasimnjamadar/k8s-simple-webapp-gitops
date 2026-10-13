@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: vasimnjamadar/k8s-simple-webapp:1
+          image: vasimnjamadar/k8s-simple-webapp:3
           ports:
             - containerPort: 80
           readinessProbe:
